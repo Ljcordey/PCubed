@@ -16,18 +16,18 @@ c = conn.cursor()
 c.execute('CREATE TABLE IF NOT EXISTS pdf_data (id INTEGER PRIMARY KEY, file_name TEXT, text_data TEXT)')
 
 # Set up the directory path to the PDF files
-pdf_directory = 'C:/pdf_files/'
+pdf_directory = 'test_pdf/'
 
 # Loop through the PDF files in the directory
 for file_name in os.listdir(pdf_directory):
     if file_name.endswith('.pdf'):
         # Open the PDF file and extract the text data
         with open(pdf_directory + file_name, 'rb') as pdf_file:
-            pdf_reader = PyPDF2.PdfFileReader(pdf_file)
+            pdf_reader = PyPDF2.PdfReader(pdf_file)
             text_data = ''
-            for page_num in range(pdf_reader.numPages):
-                page = pdf_reader.getPage(page_num)
-                text_data += page.extractText()
+            for page_num in range(len(pdf_reader.pages)):
+                page = pdf_reader.pages[page_num]
+                text_data += page.extract_text()
                 
             # Clean up the text data
             text_data = re.sub(r'\n', ' ', text_data)  # Replace line breaks with spaces
