@@ -1,10 +1,14 @@
 import sqlite3
 import os
-import sys
 from wand.image import Image
 import pytesseract
+import sys
 import cv2
 import numpy as np
+
+
+# Set up the OCR engine
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\loco2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 # specify path to the folder containing PDF files
 pdf_folder_path = r"C:\Users\loco2\OneDrive - EY\Documents\GitHub\PCubed\test_pdf"
@@ -25,13 +29,17 @@ for pdf_file in os.listdir(pdf_folder_path):
         print(f"Processing file: {pdf_file}")
         
         # use Wand to convert each page of pdf to image
-        with Image(filename=pdf_path, resolution=300) as img:
+        with Image(filename=pdf_path) as img:
             for i, page_image in enumerate(img.sequence):
                 # convert page image to grayscale numpy array
                 page = cv2.cvtColor(np.array(page_image), cv2.COLOR_BGR2GRAY)
                 
                 # use pytesseract to extract text from image
-                text = pytesseract.image_to_string(page)
+                try:
+                    text = pytesseract.image_to_string(page)
+                except pytesseract.TesseractNotFoundError:
+                    print("Tesseract not found, please install it and try again.")
+                    sys.exit()
                 
                 # insert pdf file name and corresponding text into SQLite database
                 cursor.execute("INSERT INTO pdf_text (file_name, text_content) VALUES (?, ?)",

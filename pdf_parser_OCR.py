@@ -4,8 +4,7 @@ import PyPDF2
 # Set up the OCR engine
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 # Change the path to the Tesseract OCR executable to match your system 
-
-""" # Set up the database connection
+# # Set up the database connection
 conn = sqlite3.connect('pdf_database.db')
 c = conn.cursor()
 
@@ -34,35 +33,4 @@ for file_name in os.listdir(pdf_directory):
             conn.commit()
 
 # Close the database connection
-conn.close() """
-
-def extract_image_from_pdf():
-    pdf_file = open('bank_linth_-_executed_npa_and_sof_0.pdf', 'rb')
-    read_pdf = PyPDF2.PdfReader(pdf_file)
-    number_of_pages = len(reader.pages)
-    image_counter = 1
-    for page_number in range(number_of_pages):
-        page = read_pdf.getPage(page_number)
-        page_content = page.extractText()
-        print(page_content)
-        page_content = page_content.encode('utf-8')
-        filename = "page_"+str(image_counter)+".jpg"
-        image_counter = image_counter + 1
-        with open(filename, 'wb') as f:
-            f.write(page_content)
-            f.close()
-    pdf_file.close()
-    return
-
-def extract_text_from_image():
-    text = pytesseract.image_to_string(Image.open('page_1.jpg'))
-    print(text)
-    return
-
-def main():
-    extract_image_from_pdf()
-    extract_text_from_image()
-    return 0
-
-if __name__ == '__main__':
-    main()
+conn.close()
