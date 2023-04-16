@@ -5,7 +5,9 @@ import pytesseract
 import sys
 import cv2
 import numpy as np
+import time
 
+# 30 seconds of proc time per files on average.
 
 # Set up the OCR engine
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\loco2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
@@ -21,6 +23,8 @@ cursor = conn.cursor()
 
 # create table to store pdf file names and corresponding text
 cursor.execute("CREATE TABLE IF NOT EXISTS pdf_text (file_name TEXT PRIMARY KEY, text_content TEXT)")
+
+start_time = time.time()
 
 # loop through all pdf files in folder
 for pdf_file in os.listdir(pdf_folder_path):
@@ -48,5 +52,8 @@ for pdf_file in os.listdir(pdf_folder_path):
 
 # close database connection
 conn.close()
+
+end_time = time.time()
+print(f"Execution time: {end_time - start_time} seconds")
 
 print("Done processing all PDF files.")
