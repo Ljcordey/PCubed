@@ -1,18 +1,15 @@
 import concurrent.futures
-import cv2
 import multiprocessing
-import numpy as np
 import os
 import pathlib
-import pytesseract
 import sqlite3
 import sys
 import time
+from doctr.models import ocr
+from doctr.models.text_recognition import transform
 from wand.image import Image
 
-# Set up the OCR engine
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
+# where we try using tensorflow and docTR
 # specify path to the folder containing PDF files
 pdf_folder_path = r"C:\Users\loco2\OneDrive - EY\Documents\GitHub\PCubed\test_pdf"
 
@@ -31,15 +28,15 @@ def process_pdf(pdf_path):
     # use Wand to convert each page of pdf to image
     with Image(filename=str(pdf_path)) as img:
         for i, page_image in enumerate(img.sequence):
-            # convert page image to grayscale numpy array
-            page = cv2.cvtColor(np.array(page_image), cv2.COLOR_BGR2GRAY)
+            # use docTR to extract text from image
+            page = transform(np.array(page_image))
 
-            # use pytesseract to extract text from image
             try:
-                text = pytesseract.image_to_string(page)
-            except pytesseract.TesseractNotFoundError:
-                print("Tesseract not found, please install it and try again.")
-                sys.exit()
+                # use OCR engine to extract text from transformed image
+                text = ocr(page)
+            except Exception as e:
+                print(f"Error extracting text from {pdf_path.name}, page {i+1}: {e}")
+                continue
 
             # insert pdf file name, page number and corresponding text into SQLite database
             with sqlite3.connect("pdf_text.db") as conn:
@@ -48,7 +45,7 @@ def process_pdf(pdf_path):
                     cursor.execute("INSERT INTO pdf_text (file_name, page_number, text_content) VALUES (?, ?, ?)",
                                    (pdf_path.name, i+1, text))
                 except sqlite3.Error as e:
-                    print(f"Error inserting data for {pdf_path.name}: {e}")
+                    print(f"Error inserting data for {pdf_path.name}, page {i+1}: {e}")
                 else:
                     # commit the changes to the database
                     conn.commit()
