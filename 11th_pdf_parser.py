@@ -28,14 +28,16 @@ def process_pdf(pdf_path):
     print(f"Processing file: {pdf_path.name}")
 
     # use Wand to convert each page of pdf to image
-    with Image(filename=str(pdf_path)) as img:
+    with Image(filename=str(pdf_path), resolution=300) as img:
         for i, page_image in enumerate(img.sequence):
             # convert page image to grayscale numpy array
             page = cv2.cvtColor(np.array(page_image), cv2.COLOR_BGR2GRAY)
+            # Threshold the image to remove noise
+            threshold_image = cv2.threshold(page, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
 
             # use pytesseract to extract text from image
             try:
-                text = pytesseract.image_to_string(page)
+                text = pytesseract.image_to_string(threshold_image,lang='eng')
             except pytesseract.TesseractNotFoundError:
                 print("Tesseract not found, please install it and try again.")
                 sys.exit()
@@ -76,3 +78,4 @@ if __name__ == '__main__':
 # end timing function
 end = time.time()
 print(f"Time taken: {end - start}")
+
