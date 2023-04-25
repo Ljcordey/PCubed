@@ -10,8 +10,6 @@ import time
 from wand.image import Image as WandImage
 from wand.color import Color
 
-# une seconde par pages de 300 dpi
-
 # Set up the OCR engine
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\loco2\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
@@ -35,9 +33,9 @@ def process_pdf(pdf_path):
         for i, page in enumerate(pdf.sequence):
             with WandImage(page) as img:
                 # convert page to grayscale numpy array
-                img.format = 'png'
                 img.background_color = Color('white')
                 img.alpha_channel = 'remove'
+                img.format = 'jpeg'
                 page_array = np.asarray(bytearray(img.make_blob()), dtype=np.uint8)
                 page_gray = cv2.imdecode(page_array, cv2.IMREAD_GRAYSCALE)
 
@@ -64,6 +62,7 @@ def process_pdf(pdf_path):
                         conn.commit()
 
     print(f"Finished processing file: {pdf_path.name}")
+
 
 # start timing function
 start = time.time()
