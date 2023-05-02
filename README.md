@@ -35,9 +35,9 @@ This script processes all PDF files in a specified directory and extracts their 
     Implement more advanced filtering techniques, such as topic modeling or sentiment analysis
     Refactor the code to improve modularity and readability
     Add unit tests and documentation to ensure code quality and ease of use
-    
+
 ## TODO
-    - [x] POC is done
+- [x] POC is done
 - [x] Multiprocessed
 - [x] Uses only open source libraries
 - [x] Can run on airgapped systems
