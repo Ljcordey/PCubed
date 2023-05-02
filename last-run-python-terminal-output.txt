@@ -1,0 +1,243 @@
+PS C:\Users\loco2\OneDrive - EY\Documents\GitHub\PCubed> & C:/Users/loco2/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/loco2/OneDrive - EY/Documents/GitHub/PCubed/13th_pdf_parser.py"
+Time taken: 0.0
+Processing file: akb_executed_npa_and_sof.pdf
+Processing file: arvest_executed_npa_and_sof.pdf
+Processing file: banca_stato_executed_npa_and_sof.pdf    
+Processing file: bank_cic_npa_and_sof.pdf
+Processing file: bank_coop_executed_npa_and_sof.pdf      
+Processing file: bank_eki_executed_npa_and_sof.pdf       
+Processing file: bank_linth_-_executed_npa_and_sof_0.pdf 
+Processing file: bank_zweiplus_executed_npa_and_sof.pdf  
+Processing file: banque_bonhote_executed_npa_and_sof.pdf 
+Processing file: banque_heritage_executed_npa_and_sof.pdf
+Processing file: banque_pasche_executed_npa_and_sof.pdf
+Processing file: baumann_npa_and_sof.pdf
+Processing file: bbva_suiza_executed_npa_and_sof.pdf
+Processing file: bcj_executed_npa_and_sof.pdf
+Processing file: bcn_executed_npa_and_sof.pdf
+Processing file: bc_valais_executed_npa_and_sof.pdf
+Finished processing file: bank_zweiplus_executed_npa_and_sof.pdf
+Processing file: bc_vaudoise_npa_and_sof.pdf
+Completed processing file: bank_zweiplus_executed_npa_and_sof.pdf
+Finished processing file: akb_executed_npa_and_sof.pdf
+Processing file: bekb_executed_npa_and_sof.pdf
+Completed processing file: akb_executed_npa_and_sof.pdf
+Finished processing file: banque_heritage_executed_npa_and_sof.pdf
+Processing file: bellerive_executed_npa_and_sof.pdf
+Completed processing file: banque_heritage_executed_npa_and_sof.pdf
+Finished processing file: arvest_executed_npa_and_sof.pdf
+Processing file: bhf_npa_and_sof.pdf
+Completed processing file: arvest_executed_npa_and_sof.pdf
+Finished processing file: bank_coop_executed_npa_and_sof.pdf
+Processing file: bil_executed_npa_and_sof.pdf
+Completed processing file: bank_coop_executed_npa_and_sof.pdf
+Finished processing file: banque_bonhote_executed_npa_and_sof.pdf
+Processing file: bim_suisse_executed_npa_and_sof.pdf
+Completed processing file: banque_bonhote_executed_npa_and_sof.pdf
+Finished processing file: bank_cic_npa_and_sof.pdf
+Processing file: bnpp_executed_npa_and_sof.pdf
+Completed processing file: bank_cic_npa_and_sof.pdf
+Finished processing file: bcn_executed_npa_and_sof.pdf
+Processing file: bordier_npa_and_sof.pdf
+Completed processing file: bcn_executed_npa_and_sof.pdf
+Finished processing file: banca_stato_executed_npa_and_sof.pdf
+Processing file: bsi_npa_25_mar_2015_sent_30_mar_2015_signed.pdf
+Completed processing file: banca_stato_executed_npa_and_sof.pdf
+Finished processing file: baumann_npa_and_sof.pdf
+Processing file: bsz_-_executed_npa_and_sof.pdf
+Completed processing file: baumann_npa_and_sof.pdf
+Finished processing file: bc_valais_executed_npa_and_sof.pdf
+Finished processing file: banque_pasche_executed_npa_and_sof.pdf
+Processing file: corner_banca_executed_npa_and_sof.pdf
+Completed processing file: bc_valais_executed_npa_and_sof.pdf
+Processing file: coutts_executed_npa_and_sof.pdf
+Completed processing file: banque_pasche_executed_npa_and_sof.pdf
+Finished processing file: bbva_suiza_executed_npa_and_sof.pdf
+Processing file: cpc_executed_npa_and_sof_0.pdf
+Completed processing file: bbva_suiza_executed_npa_and_sof.pdf
+Finished processing file: bcj_executed_npa_and_sof.pdf
+Processing file: credinvest_executed_npa_and_sof.pdf
+Completed processing file: bcj_executed_npa_and_sof.pdf
+Finished processing file: bank_eki_executed_npa_and_sof.pdf
+Processing file: credit_agricole_suisse_npa_and_sof.pdf
+Completed processing file: bank_eki_executed_npa_and_sof.pdf
+Finished processing file: bank_linth_-_executed_npa_and_sof_0.pdf
+Processing file: deutsche_bank_suisse_executed_npa_and_sof.pdf
+Completed processing file: bank_linth_-_executed_npa_and_sof_0.pdf
+Finished processing file: bsi_npa_25_mar_2015_sent_30_mar_2015_signed.pdf
+Processing file: dreyfus_npa_and_sof.pdf
+Completed processing file: bsi_npa_25_mar_2015_sent_30_mar_2015_signed.pdf
+Finished processing file: bellerive_executed_npa_and_sof.pdf
+Processing file: dz_executed_npa_and_sof.pdf
+Completed processing file: bellerive_executed_npa_and_sof.pdf
+Finished processing file: bc_vaudoise_npa_and_sof.pdf
+Processing file: edr_switzerland_npa_and_sof.pdf
+Completed processing file: bc_vaudoise_npa_and_sof.pdf
+Finished processing file: bil_executed_npa_and_sof.pdf
+Processing file: efg_executed_npa_and_sof.pdf
+Completed processing file: bil_executed_npa_and_sof.pdf
+Finished processing file: bekb_executed_npa_and_sof.pdf
+Processing file: eks_executed_npa_and_sof.pdf
+Completed processing file: bekb_executed_npa_and_sof.pdf
+Finished processing file: bim_suisse_executed_npa_and_sof.pdf
+Processing file: falcon_executed_npa_and_sof_0.pdf
+Completed processing file: bim_suisse_executed_npa_and_sof.pdf
+Finished processing file: bsz_-_executed_npa_and_sof.pdf
+Processing file: finternpasofaddendum17jan_2017.pdf
+Completed processing file: bsz_-_executed_npa_and_sof.pdf
+Finished processing file: bhf_npa_and_sof.pdf
+Processing file: gonet_executed_npa_and_sof.pdf
+Completed processing file: bhf_npa_and_sof.pdf
+Finished processing file: bordier_npa_and_sof.pdf
+Processing file: graubundner_executed_npa_and_sof.pdf
+Completed processing file: bordier_npa_and_sof.pdf
+Finished processing file: bnpp_executed_npa_and_sof.pdf
+Processing file: gutzwiller_npa_and_sof.pdf
+Completed processing file: bnpp_executed_npa_and_sof.pdf
+Finished processing file: cpc_executed_npa_and_sof_0.pdf
+Processing file: hbz_exeucted_npa_and_sof_0.pdf
+Completed processing file: cpc_executed_npa_and_sof_0.pdf
+Finished processing file: credinvest_executed_npa_and_sof.pdf
+Processing file: hszh_executed_npa_and_sof.pdf
+Completed processing file: credinvest_executed_npa_and_sof.pdf
+Finished processing file: coutts_executed_npa_and_sof.pdf
+Processing file: hyposwiss_geneva_executed_npa_and_sof.pdf
+Completed processing file: coutts_executed_npa_and_sof.pdf
+Finished processing file: deutsche_bank_suisse_executed_npa_and_sof.pdf
+Processing file: hypothekarbank_lenzburg_npa_and_sof.pdf
+Completed processing file: deutsche_bank_suisse_executed_npa_and_sof.pdf
+Finished processing file: corner_banca_executed_npa_and_sof.pdf
+Processing file: ihag_executed_npa_and_sof.pdf
+Completed processing file: corner_banca_executed_npa_and_sof.pdf
+Finished processing file: credit_agricole_suisse_npa_and_sof.pdf
+Processing file: kbl_executed_npa_and_sof.pdf
+Completed processing file: credit_agricole_suisse_npa_and_sof.pdf
+Finished processing file: dreyfus_npa_and_sof.pdf
+Processing file: la_roche_executed_npa_and_sof.pdf
+Completed processing file: dreyfus_npa_and_sof.pdf
+Finished processing file: graubundner_executed_npa_and_sof.pdf
+Processing file: lbbw-schweiz_executed_npa_and_sof_1.pdf
+Completed processing file: graubundner_executed_npa_and_sof.pdf
+Finished processing file: falcon_executed_npa_and_sof_0.pdf
+Processing file: leodan-phz_executed_npa_and_sof.pdf
+Completed processing file: falcon_executed_npa_and_sof_0.pdf
+Finished processing file: gonet_executed_npa_and_sof.pdf
+Processing file: lombard_odier_executed_npa_and_sof.pdf
+Completed processing file: gonet_executed_npa_and_sof.pdf
+Finished processing file: gutzwiller_npa_and_sof.pdf
+Processing file: luzerner_executed_npa_and_sof.pdf
+Completed processing file: gutzwiller_npa_and_sof.pdf
+Finished processing file: edr_switzerland_npa_and_sof.pdf
+Processing file: maerki_baumann_-_executed_npa_and_sof.pdf
+Completed processing file: edr_switzerland_npa_and_sof.pdf
+Finished processing file: eks_executed_npa_and_sof.pdf
+Processing file: medibank_executed_npa_and_sof_0.pdf
+Completed processing file: eks_executed_npa_and_sof.pdf
+Finished processing file: finternpasofaddendum17jan_2017.pdf
+Processing file: mercantil_executed_npa_and_sof.pdf
+Completed processing file: finternpasofaddendum17jan_2017.pdf
+Finished processing file: hypothekarbank_lenzburg_npa_and_sof.pdf
+Processing file: migros_bank_executed_npa_and_sof.pdf
+Completed processing file: hypothekarbank_lenzburg_npa_and_sof.pdf
+Finished processing file: dz_executed_npa_and_sof.pdf
+Processing file: nkb_executed_npa_and_sof.pdf
+Completed processing file: dz_executed_npa_and_sof.pdf
+Finished processing file: hyposwiss_geneva_executed_npa_and_sof.pdf
+Processing file: npa_mirelis_bank.pdf
+Completed processing file: hyposwiss_geneva_executed_npa_and_sof.pdf
+Finished processing file: efg_executed_npa_and_sof.pdf
+Processing file: pbz_npa_and_sof.pdf
+Completed processing file: efg_executed_npa_and_sof.pdf
+Finished processing file: hbz_exeucted_npa_and_sof_0.pdf
+Processing file: piguet_galland_executed_npa_and_sof.pdf
+Completed processing file: hbz_exeucted_npa_and_sof_0.pdf
+Finished processing file: ihag_executed_npa_and_sof.pdf
+Processing file: pkb_executed_npa_and_sof_0.pdf
+Completed processing file: ihag_executed_npa_and_sof.pdf
+Finished processing file: lbbw-schweiz_executed_npa_and_sof_1.pdf
+Processing file: postfinance_npa_and_sof.pdf
+Completed processing file: lbbw-schweiz_executed_npa_and_sof_1.pdf
+Finished processing file: la_roche_executed_npa_and_sof.pdf
+Processing file: reichmuth_executed_npa_and_sof.pdf
+Completed processing file: la_roche_executed_npa_and_sof.pdf
+Finished processing file: kbl_executed_npa_and_sof.pdf
+Processing file: rothschild_executed_npa_and_sof.pdf
+Completed processing file: kbl_executed_npa_and_sof.pdf
+Finished processing file: luzerner_executed_npa_and_sof.pdf
+Processing file: safra_sarasin_executed_npa_and_sof.pdf
+Completed processing file: luzerner_executed_npa_and_sof.pdf
+Finished processing file: medibank_executed_npa_and_sof_0.pdf
+Processing file: sb_saanen_executed_npa_and_sof.pdf
+Completed processing file: medibank_executed_npa_and_sof_0.pdf
+Finished processing file: leodan-phz_executed_npa_and_sof.pdf
+Processing file: scb_switzerland_executed_npa_and_sof.pdf
+Completed processing file: leodan-phz_executed_npa_and_sof.pdf
+Finished processing file: lombard_odier_executed_npa_and_sof.pdf
+Processing file: schroder_bank_npa_and_sof.pdf
+Completed processing file: lombard_odier_executed_npa_and_sof.pdf
+Finished processing file: maerki_baumann_-_executed_npa_and_sof.pdf
+Processing file: scobag_executed_npa_and_sof.pdf
+Completed processing file: maerki_baumann_-_executed_npa_and_sof.pdf
+Finished processing file: mercantil_executed_npa_and_sof.pdf
+Processing file: sgkb_npa_and_sof.pdf
+Completed processing file: mercantil_executed_npa_and_sof.pdf
+Finished processing file: hszh_executed_npa_and_sof.pdf
+Processing file: sgpb-lugano_executed_npa_and_sof.pdf
+Completed processing file: hszh_executed_npa_and_sof.pdf
+Finished processing file: migros_bank_executed_npa_and_sof.pdf
+Processing file: sgpb-suisse_executed_npa_and_sof.pdf
+Completed processing file: migros_bank_executed_npa_and_sof.pdf
+Finished processing file: postfinance_npa_and_sof.pdf
+Processing file: shkb_executed_npa_and_sof.pdf
+Completed processing file: postfinance_npa_and_sof.pdf
+Finished processing file: pbz_npa_and_sof.pdf
+Processing file: ubp_executed_npa_and_sof.pdf
+Completed processing file: pbz_npa_and_sof.pdf
+Finished processing file: nkb_executed_npa_and_sof.pdf
+Processing file: vadian_npa_and_sof.pdf
+Completed processing file: nkb_executed_npa_and_sof.pdf
+Finished processing file: reichmuth_executed_npa_and_sof.pdf
+Processing file: valiant_executed_npa_and_sof.pdf
+Completed processing file: reichmuth_executed_npa_and_sof.pdf
+Finished processing file: pkb_executed_npa_and_sof_0.pdf
+Processing file: von_graffenried_executed_npa_and_sof.pdf
+Completed processing file: pkb_executed_npa_and_sof_0.pdf
+Finished processing file: rothschild_executed_npa_and_sof.pdf
+Processing file: zgkb_executed_npa_and_sof.pdf
+Completed processing file: rothschild_executed_npa_and_sof.pdf
+Finished processing file: piguet_galland_executed_npa_and_sof.pdf
+Completed processing file: piguet_galland_executed_npa_and_sof.pdf
+Finished processing file: npa_mirelis_bank.pdf
+Completed processing file: npa_mirelis_bank.pdf
+Finished processing file: scobag_executed_npa_and_sof.pdf
+Completed processing file: scobag_executed_npa_and_sof.pdf
+Finished processing file: sb_saanen_executed_npa_and_sof.pdf
+Completed processing file: sb_saanen_executed_npa_and_sof.pdf
+Finished processing file: safra_sarasin_executed_npa_and_sof.pdf
+Completed processing file: safra_sarasin_executed_npa_and_sof.pdf
+Finished processing file: schroder_bank_npa_and_sof.pdf
+Finished processing file: sgkb_npa_and_sof.pdf
+Finished processing file: sgpb-lugano_executed_npa_and_sof.pdf
+Finished processing file: vadian_npa_and_sof.pdf
+Finished processing file: zgkb_executed_npa_and_sof.pdf
+Finished processing file: sgpb-suisse_executed_npa_and_sof.pdf
+Finished processing file: shkb_executed_npa_and_sof.pdf
+Finished processing file: von_graffenried_executed_npa_and_sof.pdf
+Finished processing file: valiant_executed_npa_and_sof.pdf
+Finished processing file: ubp_executed_npa_and_sof.pdf
+Traceback (most recent call last):
+  File "c:\Users\loco2\OneDrive - EY\Documents\GitHub\PCubed\13th_pdf_parser.py", line 122, in <module>
+    error = (future.exception(), future.result())
+                                 ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\loco2\OneDrive - EY\Documents\GitHub\PCubed\13th_pdf_parser.py", line 42, in process_pdf
+    page_array = np.asarray(bytearray(img.make_blob()), dtype=np.uint8)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot convert 'NoneType' object to bytearray
