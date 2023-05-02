@@ -1,4 +1,8 @@
 # CRUMBS - Cleaned and Refactored OCR, NLP and Unconnected Media-Based System
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 Welcome to the GitHub repository for our PDF text extraction and keyword filtering project! This project uses OCR and multiprocessing to extract text from PDF files and filter it based on a predefined list of keywords. Our goal is to provide a simple and efficient solution for extracting and filtering text from large volumes of PDF files.
 
 ## Features
